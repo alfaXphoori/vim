@@ -3,15 +3,16 @@
 	Plug 'junegunn/vim-easy-align'
 	Plug 'vim-airline/vim-airline'
 	Plug 'davidhalter/jedi-vim'
-    Plug 'valloric/youcompleteme'
+    	Plug 'valloric/youcompleteme'
 	Plug 'dense-analysis/ale'
-    call plug#end()
+    	call plug#end()
 	set number
 	set relativenumber
 	syntax on
 	filetype on
-	
-    set noswapfile
+	set listchars=eol:↓,tab:\ \ ┊,trail:●,extends:…,precedes:…,space:·
+    	set list
+    	set noswapfile
 	set cursorcolumn
 	set number
 	set expandtab
